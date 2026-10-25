@@ -1,0 +1,23 @@
+{
+ "cagri": 537,
+ "toplam_usd": 0.06183239999999996,
+ "hucre_usd": {
+  "K-0-sessiz": 0.0036264,
+  "K-0-soylendi": 0.004087800000000001,
+  "K-yarim-sessiz": 0.0032094999999999997,
+  "K-yarim-soylendi": 0.004530299999999999,
+  "K-tam-sessiz": 0.0035173999999999995,
+  "K-tam-soylendi": 0.0042218,
+  "R-tam-sessiz": 0.0039107000000000005,
+  "R-tam-soylendi": 0.004367,
+  "RT-notr": 0.0041631,
+  "RT-levha": 0.0056664,
+  "S-0-sessiz": 0.0048197,
+  "S-tam-sessiz": 0.0044986,
+  "S-tam-soylendi": 0.0041865,
+  "K-tam-soylendi-yem": 0.0042229,
+  "RT-yasak": 0.0028043
+ },
+ "tahminli_cagri": 0,
+ "olcum_durumu": "ölçüldü"
+}

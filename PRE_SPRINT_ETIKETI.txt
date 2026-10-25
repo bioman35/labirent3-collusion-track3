@@ -1,0 +1,7 @@
+pre-sprint 20 Eki 2026 (TRT) · 2026-10-20T14:11:21Z UTC · dosya 29 · testler 123 · dondurdu: danisman (Turan karari KARAR 43) · .py/.md/.json 23 Eki sprint acilisina kadar DEGISMEZ; degisirse KARAR satiri + yeni etiket + raporda beyan · yedek /opt/_yedek/labirent3_pre_sprint_21eki (klasor adi plan adi, gercek tarih 20 Eki)
+etiket-ek 21 Eki 2026-10-21T17:50:54Z: KARAR 46 · teslim_kapisi.py + test_a4.py degisti (arac, olcum kodu degil) · deney kodu md5 ayni
+etiket-ek 21 Eki 2026-10-21T19:28:12Z: KARAR 48 - README_RUN.md bolum 0 Preexisting work (Apart kurali) - deney kodu degismedi
+etiket-ek 22 Eki 2026-10-22T16:43:27Z: KARAR 51 - pilot klasorleri pilot_mu25/pilot_mu50 (veri tasima) - README_RUN klasor adlari - KARAR_KAYDI ve DERS_KARTI yasayan belge, md5 listesi disi
+etiket-ek 23 Eki 2026-10-23T17:17:13Z: KARAR 54 - teslim_kapisi.py ozet 150-250 (Guidelines dogrulandi) - arac, deney kodu degismedi
+etiket-ek 25 Eki 2026-10-24T23:10:00Z: KARAR 64 - teslim_kapisi.py yuvarlama/arXiv/--girdi dosya (arac, olcum kodu degil) - deney kodu md5 ayni
+etiket-ek 25 Eki 2026-10-25T19:30:00Z: KARAR 65 - README_RUN.md bolum 1 (tekrar hassasiyeti, klasor listesi) - deney kodu md5 ayni

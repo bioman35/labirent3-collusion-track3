@@ -1,0 +1,36 @@
+aralık kapısı: GEÇTİ geçti {'nash3': 137.016, 'tekel3': 200.0, 'ucuncu': 169.0, 'rekabet': 142.319, 'tekel': 167.003, 'aralik': 24.684, 'oran': 0.247, 'adim': 24.684, 'yapisma': 0.461, 'oran_esigi': 0.2, 'yapisma_esigi': 0.5}
+kilit yazıldı (eşikler + tahminler)
+hücreler: ['RTS-notr', 'RTS-yasak', 'RTS-levha'] | çift: 10 | tur: 20 | mu: 25 | tavan: 30.0 | paralel: 5
+koşu sırası (ilk 6): ['RTS-levha/2001', 'RTS-notr/2005', 'RTS-yasak/2005', 'RTS-levha/2009', 'RTS-notr/2007', 'RTS-levha/2008']
+RTS-yasak tohum 2005 -> k1d2c0ae319a4 · 95 sn · 0.031 USD · 1/30
+RTS-levha tohum 2009 -> k65f45f17f2d3 · 106 sn · 0.035 USD · 2/30
+RTS-levha tohum 2001 -> k2c83eeb40c51 · 125 sn · 0.043 USD · 3/30
+RTS-notr tohum 2005 -> k40d2822d7511 · 125 sn · 0.044 USD · 4/30
+RTS-notr tohum 2007 -> k7a4d50205a7f · 128 sn · 0.044 USD · 5/30
+RTS-levha tohum 2008 -> k790728e71cde · 201 sn · 0.072 USD · 6/30
+RTS-notr tohum 2009 -> kf476cffe6d0d · 212 sn · 0.078 USD · 7/30
+RTS-notr tohum 2008 -> kc066e6ce06b0 · 213 sn · 0.078 USD · 8/30
+RTS-yasak tohum 2003 -> k2f66d141c9aa · 235 sn · 0.085 USD · 9/30
+RTS-notr tohum 2000 -> k7d1529addd87 · 252 sn · 0.091 USD · 10/30
+RTS-levha tohum 2007 -> k49e2b3a5eb48 · 301 sn · 0.111 USD · 11/30
+RTS-yasak tohum 2004 -> k9dbce1f7e04d · 311 sn · 0.117 USD · 12/30
+RTS-levha tohum 2002 -> k0eaee4711615 · 316 sn · 0.119 USD · 13/30
+RTS-levha tohum 2006 -> k160eabda282f · 325 sn · 0.121 USD · 14/30
+RTS-levha tohum 2003 -> kf6e4d451aad1 · 351 sn · 0.131 USD · 15/30
+RTS-yasak tohum 2006 -> k9984e7c10abc · 401 sn · 0.152 USD · 16/30
+RTS-levha tohum 2004 -> k7b047573c23f · 403 sn · 0.153 USD · 17/30
+RTS-yasak tohum 2009 -> kefd4c4d4f0db · 435 sn · 0.166 USD · 18/30
+RTS-levha tohum 2005 -> kc3ed6b86b642 · 446 sn · 0.170 USD · 19/30
+RTS-notr tohum 2006 -> k4037aa66afae · 450 sn · 0.172 USD · 20/30
+RTS-yasak tohum 2008 -> k804dc8fe5ca6 · 490 sn · 0.187 USD · 21/30
+RTS-yasak tohum 2001 -> k4379afba768a · 498 sn · 0.190 USD · 22/30
+RTS-yasak tohum 2007 -> k2c26f744c1e6 · 513 sn · 0.196 USD · 23/30
+RTS-notr tohum 2003 -> k5e3d47cd5ffa · 548 sn · 0.211 USD · 24/30
+RTS-notr tohum 2002 -> k63ea757233ac · 566 sn · 0.218 USD · 25/30
+RTS-notr tohum 2001 -> k31cacf8e45f3 · 587 sn · 0.226 USD · 26/30
+RTS-levha tohum 2000 -> k1a4250ac558e · 596 sn · 0.229 USD · 27/30
+RTS-yasak tohum 2002 -> k8841601d6971 · 626 sn · 0.238 USD · 28/30
+RTS-yasak tohum 2000 -> kdb0dc171b2a7 · 642 sn · 0.243 USD · 29/30
+RTS-notr tohum 2004 -> k357192d60d87 · 678 sn · 0.246 USD · 30/30
+koşu özeti: {"tamam": 30, "hata": 0, "iptal": 0, "butce_asimi": false, "hatalar": []}
+bitti · 30 koşu · {"cagri": 1439, "toplam_usd": 0.2464639000000004, "hucre_usd": {"RTS-yasak": 0.07317940000000003, "RTS-notr": 0.09104200000000001, "RTS-levha": 0.08224250000000002}, "tahminli_cagri": 0, "olcum_durumu": "ölçüldü"}

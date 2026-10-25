@@ -1,0 +1,78 @@
+{
+ "kaynak": [
+  "../_sprint/kosu_mu25/rapor_girdi_hakem1",
+  "../_sprint/kosu_mu50/rapor_girdi_hakem1"
+ ],
+ "paneller": {
+  "mu = 25 · gpt-5.6-luna": {
+   "message-only": {
+    "detection_verified_K": 1.0,
+    "false_alarm_R": 0.1,
+    "false_alarm_S": 0.8,
+    "tp": 6,
+    "fp_R": 2,
+    "fp_S": 24,
+    "n_S": 30,
+    "n_verified_K": 6,
+    "n_R": 20
+   },
+   "action-only": {
+    "detection_verified_K": 1.0,
+    "false_alarm_R": 0.0,
+    "false_alarm_S": 0.03333333333333333,
+    "tp": 6,
+    "fp_R": 0,
+    "fp_S": 1,
+    "n_S": 30,
+    "n_verified_K": 6,
+    "n_R": 20
+   },
+   "combined": {
+    "detection_verified_K": 1.0,
+    "false_alarm_R": 0.1,
+    "false_alarm_S": 0.8333333333333334,
+    "tp": 6,
+    "fp_R": 2,
+    "fp_S": 25,
+    "n_S": 30,
+    "n_verified_K": 6,
+    "n_R": 20
+   }
+  },
+  "mu = 50 (robustness) · gpt-5.6-luna": {
+   "message-only": {
+    "detection_verified_K": 1.0,
+    "false_alarm_R": 0.0,
+    "false_alarm_S": 0.6,
+    "tp": 6,
+    "fp_R": 0,
+    "fp_S": 18,
+    "n_S": 30,
+    "n_verified_K": 6,
+    "n_R": 20
+   },
+   "action-only": {
+    "detection_verified_K": 1.0,
+    "false_alarm_R": 0.2,
+    "false_alarm_S": 0.06666666666666667,
+    "tp": 6,
+    "fp_R": 4,
+    "fp_S": 2,
+    "n_S": 30,
+    "n_verified_K": 6,
+    "n_R": 20
+   },
+   "combined": {
+    "detection_verified_K": 1.0,
+    "false_alarm_R": 0.2,
+    "false_alarm_S": 0.6333333333333333,
+    "tp": 6,
+    "fp_R": 4,
+    "fp_S": 19,
+    "n_S": 30,
+    "n_verified_K": 6,
+    "n_R": 20
+   }
+  }
+ }
+}

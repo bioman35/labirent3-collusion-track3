@@ -1,0 +1,1607 @@
+{
+ "kok": "../_sprint/kosu_mu25",
+ "etiketler": "rapor_girdi_hakem1",
+ "esikler": {
+  "k": 3,
+  "esik_e": 0.7,
+  "esik_m": 0.5,
+  "son_k": 10,
+  "fiyat_bandi": 3,
+  "g7_e": 0.8,
+  "g7_k": 4
+ },
+ "T1": {
+  "hucreler": {
+   "S-0-sessiz": {
+    "n": 10,
+    "ort": -0.13466656975275584,
+    "alt": -0.5081899234664033,
+    "ust": 0.23804653807431136,
+    "pozitif_ve_1_altinda": false,
+    "orta_bant_0_3_0_7": false
+   },
+   "S-tam-sessiz": {
+    "n": 10,
+    "ort": -0.5640968896404635,
+    "alt": -0.8576084620542789,
+    "ust": -0.24870867828897253,
+    "pozitif_ve_1_altinda": false,
+    "orta_bant_0_3_0_7": false
+   },
+   "S-tam-soylendi": {
+    "n": 10,
+    "ort": -0.9732710623636567,
+    "alt": -1.2129012833198636,
+    "ust": -0.6580854124838108,
+    "pozitif_ve_1_altinda": false,
+    "orta_bant_0_3_0_7": false
+   }
+  },
+  "sonuc": "yanlışlandı",
+  "not": "A_SPEC 'orta' için sayı vermedi; üç okuma verildi, karar 0,3-0,7 bandıyla"
+ },
+ "T2": {
+  "K_cift": 60,
+  "ilk_tur_ret": 26,
+  "ilk_tur_kabul": 34,
+  "ret_sonra_anlasan": 10,
+  "kendiliginden_donen": 0,
+  "kendiliginden_oran": 0.0,
+  "kabul_sonra_anlasan": 22,
+  "ilk_tur_tahmin_dogrulugu": 0.6333333333333333,
+  "sonuc": "desteklendi",
+  "not": "ret = ilk tur E < 0.7 (fiyatla); kendiliğinden = anlaşmadan önce ortaktan hakem-E mesajı yok"
+ },
+ "T4": {
+  "hucreler": {
+   "K-tam-sessiz": {
+    "anlasan_K": 1,
+    "R_n": 10,
+    "E_kar_K_anlasan": {
+     "n": 1,
+     "ort": 0.6413027630354988,
+     "alt": 0.6413027630354988,
+     "ust": 0.6413027630354988
+    },
+    "E_kar_R": {
+     "n": 10,
+     "ort": -0.6114536083500097,
+     "alt": -1.3925813911193754,
+     "ust": 0.05029282395656809
+    }
+   },
+   "K-tam-soylendi": {
+    "anlasan_K": 5,
+    "R_n": 10,
+    "E_kar_K_anlasan": {
+     "n": 5,
+     "ort": 0.3912805005126364,
+     "alt": -0.20465646285098504,
+     "ust": 0.9872174638762579
+    },
+    "E_kar_R": {
+     "n": 10,
+     "ort": -1.3060978031467518,
+     "alt": -1.9793639471415698,
+     "ust": -0.5084577810351462
+    }
+   }
+  },
+  "fark": {
+   "ort": 1.391726583348161,
+   "alt": 0.574647235448514,
+   "ust": 2.1338427596414355,
+   "anlasan_K_n": 6,
+   "R_n": 20
+  },
+  "sonuc": "yanlışlandı",
+  "bilgi_tum_K_anlasan_E_kar": {
+   "n": 32,
+   "ort": 0.4220510026651083,
+   "alt": 0.21568906872290428,
+   "ust": 0.6134235144904527
+  }
+ },
+ "satirlar": [
+  {
+   "kimlik": "k011e5d3cf1e8",
+   "hucre": "R-tam-sessiz",
+   "grup": "R",
+   "ilk_e": -0.9041976005326623,
+   "e": -0.4383062157488284,
+   "e_kar": -0.9756140120533616,
+   "anlasti_tur": null,
+   "ilk_oneri_tur": 0
+  },
+  {
+   "kimlik": "k0609c08d6a7d",
+   "hucre": "RT-notr",
+   "grup": "R",
+   "ilk_e": -1.1067590721778073,
+   "e": -0.6813799817230026,
+   "e_kar": -1.6031447562943473,
+   "anlasti_tur": null,
+   "ilk_oneri_tur": null
+  },
+  {
+   "kimlik": "k06af24921844",
+   "hucre": "K-0-soylendi",
+   "grup": "K",
+   "ilk_e": 2.3367859457896603,
+   "e": 2.3367859457896603,
+   "e_kar": -0.49660639100576665,
+   "anlasti_tur": 0,
+   "ilk_oneri_tur": 0
+  },
+  {
+   "kimlik": "k0a708aee4732",
+   "hucre": "RT-levha",
+   "grup": "R",
+   "ilk_e": 0.3111712293382086,
+   "e": 0.9998802329317021,
+   "e_kar": 0.999999985122324,
+   "anlasti_tur": 4,
+   "ilk_oneri_tur": null
+  },
+  {
+   "kimlik": "k0c69d7653f30",
+   "hucre": "RT-yasak",
+   "grup": "R",
+   "ilk_e": -0.6813799817230026,
+   "e": -0.29651318559722684,
+   "e_kar": -1.4928032982822714,
+   "anlasti_tur": null,
+   "ilk_oneri_tur": null
+  },
+  {
+   "kimlik": "k0db4373b9443",
+   "hucre": "K-tam-soylendi",
+   "grup": "K",
+   "ilk_e": -0.29651318559722684,
+   "e": 0.29496631160659675,
+   "e_kar": 0.48977711043432093,
+   "anlasti_tur": null,
+   "ilk_oneri_tur": 0
+  },
+  {
+   "kimlik": "k0e3346e32505",
+   "hucre": "R-tam-soylendi",
+   "grup": "R",
+   "ilk_e": -0.9041976005326623,
+   "e": -0.9041976005326623,
+   "e_kar": -2.213671523627041,
+   "anlasti_tur": null,
+   "ilk_oneri_tur": null
+  },
+  {
+   "kimlik": "k0e3c573e7071",
+   "hucre": "K-tam-soylendi",
+   "grup": "K",
+   "ilk_e": 1.3239785875639343,
+   "e": 0.40029827686207203,
+   "e_kar": 0.5443263604894181,
+   "anlasti_tur": null,
+   "ilk_oneri_tur": 0
+  },
+  {
+   "kimlik": "k0e647eea9671",
+   "hucre": "RT-yasak",
+   "grup": "R",
+   "ilk_e": -0.49907465724237193,
+   "e": -0.49907465724237193,
+   "e_kar": -2.64185984471763,
+   "anlasti_tur": null,
+   "ilk_oneri_tur": null
+  },
+  {
+   "kimlik": "k0ee683dfbd2b",
+   "hucre": "R-tam-soylendi",
+   "grup": "R",
+   "ilk_e": -1.3093205438229525,
+   "e": -0.8029168647100897,
+   "e_kar": -1.9507511552306847,
+   "anlasti_tur": null,
+   "ilk_oneri_tur": null
+  },
+  {
+   "kimlik": "k0ee89bc139da",
+   "hucre": "K-0-sessiz",
+   "grup": "K",
+   "ilk_e": 1.3239785875639343,
+   "e": 0.3111712293382086,
+   "e_kar": 0.5131186879584665,
+   "anlasti_tur": 0,
+   "ilk_oneri_tur": 0
+  },
+  {
+   "kimlik": "k11acae73462f",
+   "hucre": "S-tam-soylendi",
+   "grup": "S",
+   "ilk_e": -1.4916258683035832,
+   "e": -1.3295766909874671,
+   "e_kar": -3.4871994483631257,
+   "anlasti_tur": null,
+   "ilk_oneri_tur": null
+  },
+  {
+   "kimlik": "k1434134f168a",
+   "hucre": "K-tam-soylendi-yem",
+   "grup": "K",
+   "ilk_e": -1.289064396658438,
+   "e": 1.0444437566936338,
+   "e_kar": -1.0914296224206665,
+   "anlasti_tur": 6,
+   "ilk_oneri_tur": 1
+  },
+  {
+   "kimlik": "k14bfc49df346",
+   "hucre": "K-tam-soylendi-yem",
+   "grup": "K",
+   "ilk_e": -0.6813799817230026,
+   "e": -0.05343941962305264,
+   "e_kar": -1.0589301809672318,
+   "anlasti_tur": null,
+   "ilk_oneri_tur": 0
+  },
+  {
+   "kimlik": "k15c65076324f",
+   "hucre": "K-0-sessiz",
+   "grup": "K",
+   "ilk_e": 1.3239785875639343,
+   "e": 0.3111712293382086,
+   "e_kar": 0.5131186879584665,
+   "anlasti_tur": 0,
+   "ilk_oneri_tur": 0
+  },
+  {
+   "kimlik": "k166f6720f193",
+   "hucre": "S-tam-sessiz",
+   "grup": "S",
+   "ilk_e": -0.29651318559722684,
+   "e": -0.9041976005326623,
+   "e_kar": -2.213671523627041,
+   "anlasti_tur": null,
+   "ilk_oneri_tur": 0
+  },
+  {
+   "kimlik": "k173cf06571bb",
+   "hucre": "S-tam-sessiz",
+   "grup": "S",
+   "ilk_e": 0.3111712293382086,
+   "e": 0.26255647614337424,
+   "e_kar": 0.4413150589862364,
+   "anlasti_tur": null,
+   "ilk_oneri_tur": 0
+  },
+  {
+   "kimlik": "k17f621338083",
+   "hucre": "R-tam-soylendi",
+   "grup": "R",
+   "ilk_e": -0.9041976005326623,
+   "e": -0.9041976005326623,
+   "e_kar": -2.213671523627041,
+   "anlasti_tur": null,
+   "ilk_oneri_tur": null
+  },
+  {
+   "kimlik": "k187a9d6f5aac",
+   "hucre": "K-yarim-soylendi",
+   "grup": "K",
+   "ilk_e": 0.7162941726284989,
+   "e": -0.9041976005326623,
+   "e_kar": -2.213671523627041,
+   "anlasti_tur": null,
+   "ilk_oneri_tur": 0
+  },
+  {
+   "kimlik": "k19a6fc29ad70",
+   "hucre": "S-tam-soylendi",
+   "grup": "S",
+   "ilk_e": -1.3093205438229525,
+   "e": -1.3093205438229525,
+   "e_kar": -3.423319784114919,
+   "anlasti_tur": null,
+   "ilk_oneri_tur": 1
+  },
+  {
+   "kimlik": "k1a5255043006",
+   "hucre": "R-tam-sessiz",
+   "grup": "R",
+   "ilk_e": -0.29651318559722684,
+   "e": -0.5598430987359155,
+   "e_kar": -1.2724347336681372,
+   "anlasti_tur": null,
+   "ilk_oneri_tur": 7
+  },
+  {
+   "kimlik": "k1ba634fec209",
+   "hucre": "K-tam-soylendi-yem",
+   "grup": "K",
+   "ilk_e": 0.3111712293382086,
+   "e": -0.05343941962305264,
+   "e_kar": -1.0589301809672318,
+   "anlasti_tur": null,
+   "ilk_oneri_tur": 0
+  },
+  {
+   "kimlik": "k1bc04294b2fd",
+   "hucre": "S-0-sessiz",
+   "grup": "S",
+   "ilk_e": -0.49907465724237193,
+   "e": 0.8722665057952604,
+   "e_kar": 0.9262859604743522,
+   "anlasti_tur": 13,
+   "ilk_oneri_tur": 0
+  },
+  {
+   "kimlik": "k2030f568b3d7",
+   "hucre": "K-0-sessiz",
+   "grup": "K",
+   "ilk_e": 1.3239785875639343,
+   "e": 0.3111712293382086,
+   "e_kar": 0.5131186879584665,
+   "anlasti_tur": 0,
+   "ilk_oneri_tur": 0
+  },
+  {
+   "kimlik": "k22042532f50b",
+   "hucre": "S-tam-soylendi",
+   "grup": "S",
+   "ilk_e": -0.9041976005326623,
+   "e": -0.9041976005326623,
+   "e_kar": -2.213671523627041,
+   "anlasti_tur": null,
+   "ilk_oneri_tur": 0
+  },
+  {
+   "kimlik": "k2629fb61fe92",
+   "hucre": "R-tam-sessiz",
+   "grup": "R",
+   "ilk_e": 0.3111712293382086,
+   "e": 0.23014664068015056,
+   "e_kar": 0.3818467498383391,
+   "anlasti_tur": null,
+   "ilk_oneri_tur": 0
+  },
+  {
+   "kimlik": "k278f9dcfe75f",
+   "hucre": "K-0-soylendi",
+   "grup": "K",
+   "ilk_e": 2.3367859457896603,
+   "e": 2.296273651460631,
+   "e_kar": -0.42283311233792564,
+   "anlasti_tur": 0,
+   "ilk_oneri_tur": 0
+  },
+  {
+   "kimlik": "k281f464ee069",
+   "hucre": "K-yarim-soylendi",
+   "grup": "K",
+   "ilk_e": 1.3239785875639343,
+   "e": 0.3111712293382086,
+   "e_kar": 0.5131186879584665,
+   "anlasti_tur": 0,
+   "ilk_oneri_tur": 0
+  },
+  {
+   "kimlik": "k290fb00aeebf",
+   "hucre": "K-yarim-soylendi",
+   "grup": "K",
+   "ilk_e": 2.3367859457896603,
+   "e": 2.3367859457896603,
+   "e_kar": -0.49660639100576665,
+   "anlasti_tur": 0,
+   "ilk_oneri_tur": 0
+  },
+  {
+   "kimlik": "k29126a8a32cd",
+   "hucre": "S-tam-sessiz",
+   "grup": "S",
+   "ilk_e": -1.289064396658438,
+   "e": -0.9649660420262058,
+   "e_kar": -2.3903834110227042,
+   "anlasti_tur": null,
+   "ilk_oneri_tur": 0
+  },
+  {
+   "kimlik": "k2913c5d12266",
+   "hucre": "S-0-sessiz",
+   "grup": "S",
+   "ilk_e": -1.289064396658438,
+   "e": -0.6003553930649446,
+   "e_kar": -1.3832078947301105,
+   "anlasti_tur": null,
+   "ilk_oneri_tur": 0
+  },
+  {
+   "kimlik": "k2b8e7647381c",
+   "hucre": "K-yarim-sessiz",
+   "grup": "K",
+   "ilk_e": 1.3239785875639343,
+   "e": 0.3111712293382086,
+   "e_kar": 0.5131186879584665,
+   "anlasti_tur": null,
+   "ilk_oneri_tur": 0
+  },
+  {
+   "kimlik": "k2ca866c85a3e",
+   "hucre": "RT-notr",
+   "grup": "R",
+   "ilk_e": -0.29651318559722684,
+   "e": 0.8722665057952604,
+   "e_kar": 0.9262859604743522,
+   "anlasti_tur": 13,
+   "ilk_oneri_tur": null
+  },
+  {
+   "kimlik": "k2eea9bececfa",
+   "hucre": "K-tam-soylendi",
+   "grup": "K",
+   "ilk_e": 0.3111712293382086,
+   "e": 2.3367859457896603,
+   "e_kar": -0.49660639100576665,
+   "anlasti_tur": 1,
+   "ilk_oneri_tur": 0
+  },
+  {
+   "kimlik": "k30b6a1d69329",
+   "hucre": "K-tam-sessiz",
+   "grup": "K",
+   "ilk_e": -0.9041976005326623,
+   "e": -0.9041976005326623,
+   "e_kar": -2.213671523627041,
+   "anlasti_tur": null,
+   "ilk_oneri_tur": 0
+  },
+  {
+   "kimlik": "k31e0f82904ac",
+   "hucre": "S-tam-soylendi",
+   "grup": "S",
+   "ilk_e": -1.289064396658438,
+   "e": -0.9649660420262058,
+   "e_kar": -2.3903834110227042,
+   "anlasti_tur": null,
+   "ilk_oneri_tur": 0
+  },
+  {
+   "kimlik": "k33a66fa49c18",
+   "hucre": "K-tam-sessiz",
+   "grup": "K",
+   "ilk_e": 0.7162941726284989,
+   "e": -0.9041976005326623,
+   "e_kar": -2.213671523627041,
+   "anlasti_tur": null,
+   "ilk_oneri_tur": 0
+  },
+  {
+   "kimlik": "k354e273cd7b7",
+   "hucre": "K-yarim-sessiz",
+   "grup": "K",
+   "ilk_e": -0.49907465724237193,
+   "e": 0.3111712293382086,
+   "e_kar": 0.5131186879584665,
+   "anlasti_tur": null,
+   "ilk_oneri_tur": 0
+  },
+  {
+   "kimlik": "k360b38c01c52",
+   "hucre": "R-tam-soylendi",
+   "grup": "R",
+   "ilk_e": 0.3111712293382086,
+   "e": 0.2504027878446651,
+   "e_kar": 0.4249917612973938,
+   "anlasti_tur": null,
+   "ilk_oneri_tur": null
+  },
+  {
+   "kimlik": "k37a8b17088d7",
+   "hucre": "K-tam-soylendi",
+   "grup": "K",
+   "ilk_e": 1.3239785875639343,
+   "e": 0.34763229423433495,
+   "e_kar": 0.5314200782468792,
+   "anlasti_tur": null,
+   "ilk_oneri_tur": 0
+  },
+  {
+   "kimlik": "k38c4715030b6",
+   "hucre": "K-tam-soylendi-yem",
+   "grup": "K",
+   "ilk_e": 0.3111712293382086,
+   "e": -0.033183272458538124,
+   "e_kar": -1.0406724056760581,
+   "anlasti_tur": 1,
+   "ilk_oneri_tur": 0
+  },
+  {
+   "kimlik": "k397818cb4521",
+   "hucre": "R-tam-soylendi",
+   "grup": "R",
+   "ilk_e": -1.1067590721778073,
+   "e": -0.9244537476971768,
+   "e_kar": -2.27310933996407,
+   "anlasti_tur": null,
+   "ilk_oneri_tur": 4
+  },
+  {
+   "kimlik": "k3b0eec27503c",
+   "hucre": "K-yarim-soylendi",
+   "grup": "K",
+   "ilk_e": -0.29651318559722684,
+   "e": 1.08090482158976,
+   "e_kar": 0.9932360174032869,
+   "anlasti_tur": 2,
+   "ilk_oneri_tur": 0
+  },
+  {
+   "kimlik": "k3c30c7874375",
+   "hucre": "K-0-soylendi",
+   "grup": "K",
+   "ilk_e": 1.3239785875639343,
+   "e": 0.3111712293382086,
+   "e_kar": 0.5131186879584665,
+   "anlasti_tur": 0,
+   "ilk_oneri_tur": 0
+  },
+  {
+   "kimlik": "k3dde972fb44e",
+   "hucre": "K-0-soylendi",
+   "grup": "K",
+   "ilk_e": 2.3367859457896603,
+   "e": 2.3367859457896603,
+   "e_kar": -0.49660639100576665,
+   "anlasti_tur": 0,
+   "ilk_oneri_tur": 0
+  },
+  {
+   "kimlik": "k47d3202ec3c9",
+   "hucre": "R-tam-sessiz",
+   "grup": "R",
+   "ilk_e": 0.3111712293382086,
+   "e": 0.3111712293382086,
+   "e_kar": 0.5131186879584665,
+   "anlasti_tur": null,
+   "ilk_oneri_tur": null
+  },
+  {
+   "kimlik": "k4af487c0864d",
+   "hucre": "RT-yasak",
+   "grup": "R",
+   "ilk_e": -1.6739311927842138,
+   "e": -1.6739311927842138,
+   "e_kar": -4.572974552472627,
+   "anlasti_tur": null,
+   "ilk_oneri_tur": null
+  },
+  {
+   "kimlik": "k514c69679ef7",
+   "hucre": "K-tam-soylendi",
+   "grup": "K",
+   "ilk_e": 0.7162941726284989,
+   "e": 1.08090482158976,
+   "e_kar": 0.9932360174032869,
+   "anlasti_tur": 8,
+   "ilk_oneri_tur": 0
+  },
+  {
+   "kimlik": "k5284307f500f",
+   "hucre": "RT-notr",
+   "grup": "R",
+   "ilk_e": -0.29651318559722684,
+   "e": -0.49907465724237193,
+   "e_kar": -1.5418438117360918,
+   "anlasti_tur": null,
+   "ilk_oneri_tur": null
+  },
+  {
+   "kimlik": "k52cc61b3fb8e",
+   "hucre": "R-tam-sessiz",
+   "grup": "R",
+   "ilk_e": -0.29651318559722684,
+   "e": 0.20989049351563605,
+   "e_kar": 0.34281293906951515,
+   "anlasti_tur": null,
+   "ilk_oneri_tur": null
+  },
+  {
+   "kimlik": "k53923869a1ed",
+   "hucre": "K-tam-sessiz",
+   "grup": "K",
+   "ilk_e": -0.9041976005326623,
+   "e": -0.9041976005326623,
+   "e_kar": -2.213671523627041,
+   "anlasti_tur": null,
+   "ilk_oneri_tur": 0
+  },
+  {
+   "kimlik": "k566b41be368f",
+   "hucre": "R-tam-sessiz",
+   "grup": "R",
+   "ilk_e": -0.29651318559722684,
+   "e": -0.3552560123743184,
+   "e_kar": -0.7916823454571003,
+   "anlasti_tur": null,
+   "ilk_oneri_tur": null
+  },
+  {
+   "kimlik": "k5b3ba2da6216",
+   "hucre": "K-tam-sessiz",
+   "grup": "K",
+   "ilk_e": 0.3111712293382086,
+   "e": 0.3111712293382086,
+   "e_kar": 0.5131186879584665,
+   "anlasti_tur": null,
+   "ilk_oneri_tur": 0
+  },
+  {
+   "kimlik": "k5bde9bebdaa8",
+   "hucre": "RT-yasak",
+   "grup": "R",
+   "ilk_e": -0.29651318559722684,
+   "e": -0.09395171395208167,
+   "e_kar": -0.562041977059747,
+   "anlasti_tur": null,
+   "ilk_oneri_tur": null
+  },
+  {
+   "kimlik": "k5de545d0eab5",
+   "hucre": "S-tam-soylendi",
+   "grup": "S",
+   "ilk_e": -0.9041976005326623,
+   "e": -0.9041976005326623,
+   "e_kar": -2.213671523627041,
+   "anlasti_tur": null,
+   "ilk_oneri_tur": 1
+  },
+  {
+   "kimlik": "k5e09b5f12d65",
+   "hucre": "R-tam-soylendi",
+   "grup": "R",
+   "ilk_e": -0.29651318559722684,
+   "e": -0.9244537476971768,
+   "e_kar": -2.27310933996407,
+   "anlasti_tur": null,
+   "ilk_oneri_tur": 0
+  },
+  {
+   "kimlik": "k5e0cc0a3f3d1",
+   "hucre": "S-tam-sessiz",
+   "grup": "S",
+   "ilk_e": -0.9041976005326623,
+   "e": -0.9041976005326623,
+   "e_kar": -2.213671523627041,
+   "anlasti_tur": null,
+   "ilk_oneri_tur": 0
+  },
+  {
+   "kimlik": "k5ff4b95c169f",
+   "hucre": "K-tam-soylendi-yem",
+   "grup": "K",
+   "ilk_e": -0.29651318559722684,
+   "e": -0.12231031998240152,
+   "e_kar": -1.1299890534010535,
+   "anlasti_tur": null,
+   "ilk_oneri_tur": 0
+  },
+  {
+   "kimlik": "k60ee572bd22c",
+   "hucre": "K-yarim-sessiz",
+   "grup": "K",
+   "ilk_e": 0.7162941726284989,
+   "e": -0.9204025182642741,
+   "e_kar": -2.2607431708292403,
+   "anlasti_tur": null,
+   "ilk_oneri_tur": 0
+  },
+  {
+   "kimlik": "k63b4310aa8b5",
+   "hucre": "S-0-sessiz",
+   "grup": "S",
+   "ilk_e": -0.6813799817230026,
+   "e": 0.3111712293382086,
+   "e_kar": 0.5131186879584665,
+   "anlasti_tur": null,
+   "ilk_oneri_tur": 0
+  },
+  {
+   "kimlik": "k64b507c95af3",
+   "hucre": "K-yarim-soylendi",
+   "grup": "K",
+   "ilk_e": 0.3111712293382086,
+   "e": 0.47322040665432474,
+   "e_kar": 0.6509513324800069,
+   "anlasti_tur": null,
+   "ilk_oneri_tur": 0
+  },
+  {
+   "kimlik": "k6683962d7539",
+   "hucre": "K-tam-soylendi",
+   "grup": "K",
+   "ilk_e": 0.5137327009833538,
+   "e": -1.3093205438229525,
+   "e_kar": -3.423319784114919,
+   "anlasti_tur": null,
+   "ilk_oneri_tur": 0
+  },
+  {
+   "kimlik": "k67044ed866e7",
+   "hucre": "K-yarim-sessiz",
+   "grup": "K",
+   "ilk_e": 2.3367859457896603,
+   "e": 2.3367859457896603,
+   "e_kar": -0.49660639100576665,
+   "anlasti_tur": 0,
+   "ilk_oneri_tur": 0
+  },
+  {
+   "kimlik": "k678c232ae310",
+   "hucre": "S-tam-sessiz",
+   "grup": "S",
+   "ilk_e": -0.9041976005326623,
+   "e": -0.2560008912681978,
+   "e_kar": -0.6167851671012902,
+   "anlasti_tur": null,
+   "ilk_oneri_tur": 0
+  },
+  {
+   "kimlik": "k6814080477e4",
+   "hucre": "S-0-sessiz",
+   "grup": "S",
+   "ilk_e": 0.3111712293382086,
+   "e": 0.19165996106757344,
+   "e_kar": 0.3337780513673444,
+   "anlasti_tur": null,
+   "ilk_oneri_tur": 0
+  },
+  {
+   "kimlik": "k6814d1614c5a",
+   "hucre": "RT-yasak",
+   "grup": "R",
+   "ilk_e": -1.289064396658438,
+   "e": -0.9244537476971768,
+   "e_kar": -2.27310933996407,
+   "anlasti_tur": null,
+   "ilk_oneri_tur": null
+  },
+  {
+   "kimlik": "k698503f45365",
+   "hucre": "K-yarim-sessiz",
+   "grup": "K",
+   "ilk_e": 1.3239785875639343,
+   "e": 0.3111712293382086,
+   "e_kar": 0.5131186879584665,
+   "anlasti_tur": 0,
+   "ilk_oneri_tur": 0
+  },
+  {
+   "kimlik": "k6aa6e3dd73d0",
+   "hucre": "K-0-soylendi",
+   "grup": "K",
+   "ilk_e": 1.3239785875639343,
+   "e": 0.27876139387498494,
+   "e_kar": 0.4669677795745275,
+   "anlasti_tur": 0,
+   "ilk_oneri_tur": 0
+  },
+  {
+   "kimlik": "k6cdeba3acffa",
+   "hucre": "RT-levha",
+   "grup": "R",
+   "ilk_e": -0.29651318559722684,
+   "e": 0.20989049351563605,
+   "e_kar": 0.34281293906951515,
+   "anlasti_tur": null,
+   "ilk_oneri_tur": null
+  },
+  {
+   "kimlik": "k74bde2bd377e",
+   "hucre": "K-yarim-soylendi",
+   "grup": "K",
+   "ilk_e": -0.29651318559722684,
+   "e": 0.3111712293382086,
+   "e_kar": 0.5131186879584665,
+   "anlasti_tur": null,
+   "ilk_oneri_tur": 0
+  },
+  {
+   "kimlik": "k79f88c2140fe",
+   "hucre": "RT-notr",
+   "grup": "R",
+   "ilk_e": 0.3111712293382086,
+   "e": 0.2909150821736941,
+   "e_kar": 0.4839417160532843,
+   "anlasti_tur": null,
+   "ilk_oneri_tur": null
+  },
+  {
+   "kimlik": "k7a2b0f33e3ef",
+   "hucre": "K-0-sessiz",
+   "grup": "K",
+   "ilk_e": 0.7162941726284989,
+   "e": -0.9041976005326623,
+   "e_kar": -2.213671523627041,
+   "anlasti_tur": null,
+   "ilk_oneri_tur": 0
+  },
+  {
+   "kimlik": "k7e9151235a54",
+   "hucre": "K-0-soylendi",
+   "grup": "K",
+   "ilk_e": -1.289064396658438,
+   "e": 1.040392527260731,
+   "e_kar": 0.9983105940169804,
+   "anlasti_tur": 7,
+   "ilk_oneri_tur": 0
+  },
+  {
+   "kimlik": "k7ea9111f94d8",
+   "hucre": "K-yarim-sessiz",
+   "grup": "K",
+   "ilk_e": 2.3367859457896603,
+   "e": 2.3367859457896603,
+   "e_kar": -0.49660639100576665,
+   "anlasti_tur": 0,
+   "ilk_oneri_tur": 0
+  },
+  {
+   "kimlik": "k7fbeb247d0c7",
+   "hucre": "K-yarim-soylendi",
+   "grup": "K",
+   "ilk_e": -1.4916258683035832,
+   "e": -1.3093205438229525,
+   "e_kar": -3.423319784114919,
+   "anlasti_tur": null,
+   "ilk_oneri_tur": 1
+  },
+  {
+   "kimlik": "k8269e06c5045",
+   "hucre": "K-tam-soylendi-yem",
+   "grup": "K",
+   "ilk_e": 0.5137327009833538,
+   "e": -0.1547201554456252,
+   "e_kar": -2.7623272066215594,
+   "anlasti_tur": null,
+   "ilk_oneri_tur": 0
+  },
+  {
+   "kimlik": "k85041a8a0cd4",
+   "hucre": "RT-levha",
+   "grup": "R",
+   "ilk_e": -0.6813799817230026,
+   "e": -0.6813799817230026,
+   "e_kar": -3.8123098071497825,
+   "anlasti_tur": null,
+   "ilk_oneri_tur": null
+  },
+  {
+   "kimlik": "k86d29013bf31",
+   "hucre": "K-tam-sessiz",
+   "grup": "K",
+   "ilk_e": 2.3367859457896603,
+   "e": 1.3948751026397352,
+   "e_kar": 0.6413027630354988,
+   "anlasti_tur": 0,
+   "ilk_oneri_tur": 0
+  },
+  {
+   "kimlik": "k874742daf22d",
+   "hucre": "R-tam-soylendi",
+   "grup": "R",
+   "ilk_e": 0.3111712293382086,
+   "e": 0.2909150821736941,
+   "e_kar": 0.4839417160532843,
+   "anlasti_tur": null,
+   "ilk_oneri_tur": null
+  },
+  {
+   "kimlik": "k88d1d526a11f",
+   "hucre": "RT-levha",
+   "grup": "R",
+   "ilk_e": -1.289064396658438,
+   "e": -0.9244537476971768,
+   "e_kar": -2.27310933996407,
+   "anlasti_tur": null,
+   "ilk_oneri_tur": null
+  },
+  {
+   "kimlik": "k8ad014971713",
+   "hucre": "RT-yasak",
+   "grup": "R",
+   "ilk_e": -0.29651318559722684,
+   "e": -0.29651318559722684,
+   "e_kar": -1.4928032982822714,
+   "anlasti_tur": null,
+   "ilk_oneri_tur": null
+  },
+  {
+   "kimlik": "k8dad4014bdde",
+   "hucre": "R-tam-soylendi",
+   "grup": "R",
+   "ilk_e": -0.29651318559722684,
+   "e": -0.5193308044068865,
+   "e_kar": -1.1683339033410525,
+   "anlasti_tur": null,
+   "ilk_oneri_tur": 0
+  },
+  {
+   "kimlik": "k90f8059fd505",
+   "hucre": "K-tam-soylendi-yem",
+   "grup": "K",
+   "ilk_e": 0.7162941726284989,
+   "e": -0.8616596914871819,
+   "e_kar": -2.4413338043117077,
+   "anlasti_tur": null,
+   "ilk_oneri_tur": 0
+  },
+  {
+   "kimlik": "k9160cb975ab5",
+   "hucre": "S-0-sessiz",
+   "grup": "S",
+   "ilk_e": -1.289064396658438,
+   "e": -0.9062232152491135,
+   "e_kar": -2.219615305260744,
+   "anlasti_tur": null,
+   "ilk_oneri_tur": 0
+  },
+  {
+   "kimlik": "k91e9b382f8f1",
+   "hucre": "K-0-sessiz",
+   "grup": "K",
+   "ilk_e": 1.3239785875639343,
+   "e": 0.3111712293382086,
+   "e_kar": 0.5131186879584665,
+   "anlasti_tur": 0,
+   "ilk_oneri_tur": 0
+  },
+  {
+   "kimlik": "k9248eeaa3fcc",
+   "hucre": "RT-notr",
+   "grup": "R",
+   "ilk_e": -0.29651318559722684,
+   "e": -0.26815457956690697,
+   "e_kar": -0.5741091133811626,
+   "anlasti_tur": null,
+   "ilk_oneri_tur": null
+  },
+  {
+   "kimlik": "k9409da8b6858",
+   "hucre": "S-tam-sessiz",
+   "grup": "S",
+   "ilk_e": -0.6813799817230026,
+   "e": 0.3111712293382086,
+   "e_kar": 0.5131186879584665,
+   "anlasti_tur": null,
+   "ilk_oneri_tur": 0
+  },
+  {
+   "kimlik": "k98fc08fd33db",
+   "hucre": "S-tam-soylendi",
+   "grup": "S",
+   "ilk_e": -0.6813799817230026,
+   "e": 0.23622348482950514,
+   "e_kar": 0.40418803483640636,
+   "anlasti_tur": null,
+   "ilk_oneri_tur": 0
+  },
+  {
+   "kimlik": "k9a6c8c356dcc",
+   "hucre": "K-yarim-sessiz",
+   "grup": "K",
+   "ilk_e": 0.5137327009833538,
+   "e": 0.9796240857671876,
+   "e_kar": 0.9991316869276592,
+   "anlasti_tur": 6,
+   "ilk_oneri_tur": 0
+  },
+  {
+   "kimlik": "k9c62af7c3712",
+   "hucre": "RT-notr",
+   "grup": "R",
+   "ilk_e": 0.3111712293382086,
+   "e": 0.3111712293382086,
+   "e_kar": 0.5131186879584665,
+   "anlasti_tur": null,
+   "ilk_oneri_tur": 19
+  },
+  {
+   "kimlik": "ka17ad29e2b2d",
+   "hucre": "S-0-sessiz",
+   "grup": "S",
+   "ilk_e": -0.9041976005326623,
+   "e": -0.9041976005326623,
+   "e_kar": -2.213671523627041,
+   "anlasti_tur": null,
+   "ilk_oneri_tur": 0
+  },
+  {
+   "kimlik": "ka6c0f4ead2e2",
+   "hucre": "S-tam-sessiz",
+   "grup": "S",
+   "ilk_e": -1.289064396658438,
+   "e": -0.9041976005326623,
+   "e_kar": -2.213671523627041,
+   "anlasti_tur": null,
+   "ilk_oneri_tur": 0
+  },
+  {
+   "kimlik": "ka78230a4c34a",
+   "hucre": "R-tam-soylendi",
+   "grup": "R",
+   "ilk_e": -0.29651318559722684,
+   "e": -0.9649660420262058,
+   "e_kar": -2.3903834110227042,
+   "anlasti_tur": null,
+   "ilk_oneri_tur": null
+  },
+  {
+   "kimlik": "ka806ede7f5d0",
+   "hucre": "RT-yasak",
+   "grup": "R",
+   "ilk_e": -0.6813799817230026,
+   "e": 0.2909150821736941,
+   "e_kar": 0.4839417160532843,
+   "anlasti_tur": null,
+   "ilk_oneri_tur": null
+  },
+  {
+   "kimlik": "ka9bae9115908",
+   "hucre": "K-tam-sessiz",
+   "grup": "K",
+   "ilk_e": 0.3111712293382086,
+   "e": 0.3111712293382086,
+   "e_kar": 0.5131186879584665,
+   "anlasti_tur": null,
+   "ilk_oneri_tur": 0
+  },
+  {
+   "kimlik": "kaaf54573ec3a",
+   "hucre": "K-yarim-soylendi",
+   "grup": "K",
+   "ilk_e": 0.7162941726284989,
+   "e": -0.9041976005326623,
+   "e_kar": -2.213671523627041,
+   "anlasti_tur": null,
+   "ilk_oneri_tur": 0
+  },
+  {
+   "kimlik": "kac0f40cd59fd",
+   "hucre": "K-tam-soylendi",
+   "grup": "K",
+   "ilk_e": 2.3367859457896603,
+   "e": 0.8520103586307459,
+   "e_kar": 0.9631432497681414,
+   "anlasti_tur": 0,
+   "ilk_oneri_tur": 0
+  },
+  {
+   "kimlik": "kad5e30fcea44",
+   "hucre": "S-0-sessiz",
+   "grup": "S",
+   "ilk_e": -0.29651318559722684,
+   "e": 0.252428402561117,
+   "e_kar": 0.42805776735985707,
+   "anlasti_tur": null,
+   "ilk_oneri_tur": 0
+  },
+  {
+   "kimlik": "kb038d101a0ea",
+   "hucre": "K-yarim-soylendi",
+   "grup": "K",
+   "ilk_e": -1.4916258683035832,
+   "e": 1.072802362723955,
+   "e_kar": 0.9932316280866248,
+   "anlasti_tur": 9,
+   "ilk_oneri_tur": 1
+  },
+  {
+   "kimlik": "kb472f7295f2f",
+   "hucre": "RT-levha",
+   "grup": "R",
+   "ilk_e": -0.29651318559722684,
+   "e": -0.49907465724237193,
+   "e_kar": -1.5418438117360918,
+   "anlasti_tur": null,
+   "ilk_oneri_tur": null
+  },
+  {
+   "kimlik": "kb5dcb9b09c0f",
+   "hucre": "R-tam-soylendi",
+   "grup": "R",
+   "ilk_e": 0.3111712293382086,
+   "e": 0.3111712293382086,
+   "e_kar": 0.5131186879584665,
+   "anlasti_tur": null,
+   "ilk_oneri_tur": null
+  },
+  {
+   "kimlik": "kb888ce69a933",
+   "hucre": "S-tam-soylendi",
+   "grup": "S",
+   "ilk_e": -1.6739311927842138,
+   "e": -1.3700889853164961,
+   "e_kar": -3.6143104534497,
+   "anlasti_tur": null,
+   "ilk_oneri_tur": 6
+  },
+  {
+   "kimlik": "kb93d31cbd1f7",
+   "hucre": "S-0-sessiz",
+   "grup": "S",
+   "ilk_e": 0.3111712293382086,
+   "e": 0.2686333202927277,
+   "e_kar": 0.4469480289418208,
+   "anlasti_tur": null,
+   "ilk_oneri_tur": 0
+  },
+  {
+   "kimlik": "kbcc45d198a7f",
+   "hucre": "K-0-sessiz",
+   "grup": "K",
+   "ilk_e": 2.3367859457896603,
+   "e": 1.040392527260731,
+   "e_kar": 0.9983105940169804,
+   "anlasti_tur": 0,
+   "ilk_oneri_tur": 0
+  },
+  {
+   "kimlik": "kbccaf1018106",
+   "hucre": "RT-notr",
+   "grup": "R",
+   "ilk_e": -0.9041976005326623,
+   "e": -0.4788185100778574,
+   "e_kar": -1.0761634382065888,
+   "anlasti_tur": null,
+   "ilk_oneri_tur": 4
+  },
+  {
+   "kimlik": "kbce11ecac699",
+   "hucre": "RT-levha",
+   "grup": "R",
+   "ilk_e": 0.3111712293382086,
+   "e": 0.3111712293382086,
+   "e_kar": 0.5131186879584665,
+   "anlasti_tur": null,
+   "ilk_oneri_tur": 2
+  },
+  {
+   "kimlik": "kbd0b99f34c43",
+   "hucre": "K-tam-soylendi-yem",
+   "grup": "K",
+   "ilk_e": 0.7162941726284989,
+   "e": -0.9041976005326623,
+   "e_kar": -2.491389705672671,
+   "anlasti_tur": null,
+   "ilk_oneri_tur": 0
+  },
+  {
+   "kimlik": "kc2f5bab76032",
+   "hucre": "S-tam-soylendi",
+   "grup": "S",
+   "ilk_e": -1.289064396658438,
+   "e": -0.9244537476971768,
+   "e_kar": -2.27310933996407,
+   "anlasti_tur": null,
+   "ilk_oneri_tur": null
+  },
+  {
+   "kimlik": "kc3549d1a9c5a",
+   "hucre": "K-0-soylendi",
+   "grup": "K",
+   "ilk_e": 2.3367859457896603,
+   "e": 1.040392527260731,
+   "e_kar": 0.9983105940169804,
+   "anlasti_tur": 0,
+   "ilk_oneri_tur": 0
+  },
+  {
+   "kimlik": "kc41d64cb620e",
+   "hucre": "K-0-soylendi",
+   "grup": "K",
+   "ilk_e": 0.7162941726284989,
+   "e": -0.9041976005326623,
+   "e_kar": -2.213671523627041,
+   "anlasti_tur": null,
+   "ilk_oneri_tur": 0
+  },
+  {
+   "kimlik": "kc5af1a66c15b",
+   "hucre": "RT-levha",
+   "grup": "R",
+   "ilk_e": -1.289064396658438,
+   "e": -0.9953502627729776,
+   "e_kar": -2.5136176412047933,
+   "anlasti_tur": null,
+   "ilk_oneri_tur": null
+  },
+  {
+   "kimlik": "kc7035712e319",
+   "hucre": "K-tam-sessiz",
+   "grup": "K",
+   "ilk_e": 0.7162941726284989,
+   "e": -0.7056873583204197,
+   "e_kar": -2.101315836719852,
+   "anlasti_tur": null,
+   "ilk_oneri_tur": 0
+  },
+  {
+   "kimlik": "kca319dd3f7d7",
+   "hucre": "K-tam-soylendi-yem",
+   "grup": "K",
+   "ilk_e": 0.3111712293382086,
+   "e": -0.1344640082811107,
+   "e_kar": -1.155257509670783,
+   "anlasti_tur": null,
+   "ilk_oneri_tur": 0
+  },
+  {
+   "kimlik": "kce405d6cb462",
+   "hucre": "R-tam-sessiz",
+   "grup": "R",
+   "ilk_e": 0.3111712293382086,
+   "e": 0.15925012560434976,
+   "e_kar": 0.27110051453280504,
+   "anlasti_tur": null,
+   "ilk_oneri_tur": null
+  },
+  {
+   "kimlik": "kd052369a1024",
+   "hucre": "RT-yasak",
+   "grup": "R",
+   "ilk_e": 0.3111712293382086,
+   "e": 0.3111712293382086,
+   "e_kar": 0.5131186879584665,
+   "anlasti_tur": null,
+   "ilk_oneri_tur": null
+  },
+  {
+   "kimlik": "kd09a22c4809e",
+   "hucre": "K-tam-soylendi",
+   "grup": "K",
+   "ilk_e": -0.29651318559722684,
+   "e": 0.3111712293382086,
+   "e_kar": 0.5131186879584665,
+   "anlasti_tur": null,
+   "ilk_oneri_tur": 0
+  },
+  {
+   "kimlik": "kd1f3a44fcc55",
+   "hucre": "S-tam-soylendi",
+   "grup": "S",
+   "ilk_e": -1.289064396658438,
+   "e": -0.9244537476971768,
+   "e_kar": -2.27310933996407,
+   "anlasti_tur": null,
+   "ilk_oneri_tur": 1
+  },
+  {
+   "kimlik": "kd790affe1983",
+   "hucre": "K-yarim-soylendi",
+   "grup": "K",
+   "ilk_e": -1.1067590721778073,
+   "e": -0.9041976005326623,
+   "e_kar": -2.213671523627041,
+   "anlasti_tur": null,
+   "ilk_oneri_tur": 0
+  },
+  {
+   "kimlik": "kd7b4c73c5e07",
+   "hucre": "K-tam-soylendi",
+   "grup": "K",
+   "ilk_e": 2.3367859457896603,
+   "e": 2.3367859457896603,
+   "e_kar": -0.49660639100576665,
+   "anlasti_tur": 0,
+   "ilk_oneri_tur": 0
+  },
+  {
+   "kimlik": "kd8ad4e273a5d",
+   "hucre": "K-yarim-sessiz",
+   "grup": "K",
+   "ilk_e": 1.3239785875639343,
+   "e": 0.5137327009833538,
+   "e_kar": 0.46237082883179076,
+   "anlasti_tur": 0,
+   "ilk_oneri_tur": 0
+  },
+  {
+   "kimlik": "kdea5363383fc",
+   "hucre": "S-tam-sessiz",
+   "grup": "S",
+   "ilk_e": -0.9041976005326623,
+   "e": -0.4119732244349593,
+   "e_kar": -1.1209592433358513,
+   "anlasti_tur": null,
+   "ilk_oneri_tur": 1
+  },
+  {
+   "kimlik": "kdf73dbfd7e0d",
+   "hucre": "RT-levha",
+   "grup": "R",
+   "ilk_e": -0.9041976005326623,
+   "e": -0.9041976005326623,
+   "e_kar": -2.213671523627041,
+   "anlasti_tur": null,
+   "ilk_oneri_tur": null
+  },
+  {
+   "kimlik": "ke165775369c7",
+   "hucre": "RT-notr",
+   "grup": "R",
+   "ilk_e": 0.3111712293382086,
+   "e": 0.3111712293382086,
+   "e_kar": 0.5131186879584665,
+   "anlasti_tur": null,
+   "ilk_oneri_tur": null
+  },
+  {
+   "kimlik": "ke1a8626f458b",
+   "hucre": "K-tam-soylendi",
+   "grup": "K",
+   "ilk_e": -1.3093205438229525,
+   "e": 1.08090482158976,
+   "e_kar": 0.9932360174032869,
+   "anlasti_tur": 2,
+   "ilk_oneri_tur": 1
+  },
+  {
+   "kimlik": "ke2d498f30ef5",
+   "hucre": "K-0-sessiz",
+   "grup": "K",
+   "ilk_e": -0.9041976005326623,
+   "e": 1.0484949861265365,
+   "e_kar": 0.9932184601366416,
+   "anlasti_tur": 10,
+   "ilk_oneri_tur": 0
+  },
+  {
+   "kimlik": "ke361f97d5626",
+   "hucre": "R-tam-sessiz",
+   "grup": "R",
+   "ilk_e": -1.4916258683035832,
+   "e": -1.3295766909874671,
+   "e_kar": -3.4871994483631257,
+   "anlasti_tur": null,
+   "ilk_oneri_tur": 1
+  },
+  {
+   "kimlik": "ke70d6aa8dc38",
+   "hucre": "S-tam-soylendi",
+   "grup": "S",
+   "ilk_e": -1.1067590721778073,
+   "e": -1.337679149853273,
+   "e_kar": -3.535796324778018,
+   "anlasti_tur": null,
+   "ilk_oneri_tur": null
+  },
+  {
+   "kimlik": "ke73e66f2ae02",
+   "hucre": "K-yarim-sessiz",
+   "grup": "K",
+   "ilk_e": -0.29651318559722684,
+   "e": 1.08090482158976,
+   "e_kar": 0.9932360174032869,
+   "anlasti_tur": 2,
+   "ilk_oneri_tur": 0
+  },
+  {
+   "kimlik": "ke96c7e51d35f",
+   "hucre": "S-tam-sessiz",
+   "grup": "S",
+   "ilk_e": -0.9041976005326623,
+   "e": -0.9041976005326623,
+   "e_kar": -2.213671523627041,
+   "anlasti_tur": null,
+   "ilk_oneri_tur": 1
+  },
+  {
+   "kimlik": "kee8256923503",
+   "hucre": "K-0-sessiz",
+   "grup": "K",
+   "ilk_e": 0.5137327009833538,
+   "e": -1.127015219342322,
+   "e_kar": -3.4008560485381034,
+   "anlasti_tur": null,
+   "ilk_oneri_tur": 0
+  },
+  {
+   "kimlik": "kef9524ee60b6",
+   "hucre": "K-tam-sessiz",
+   "grup": "K",
+   "ilk_e": -0.49907465724237193,
+   "e": -0.49907465724237193,
+   "e_kar": -2.64185984471763,
+   "anlasti_tur": null,
+   "ilk_oneri_tur": 0
+  },
+  {
+   "kimlik": "kf0bf3878dd7c",
+   "hucre": "K-tam-soylendi-yem",
+   "grup": "K",
+   "ilk_e": 1.3239785875639343,
+   "e": -0.05343941962305264,
+   "e_kar": -1.0589301809672318,
+   "anlasti_tur": null,
+   "ilk_oneri_tur": 0
+  },
+  {
+   "kimlik": "kf146136469e4",
+   "hucre": "K-tam-sessiz",
+   "grup": "K",
+   "ilk_e": -0.29651318559722684,
+   "e": 0.3111712293382086,
+   "e_kar": 0.5131186879584665,
+   "anlasti_tur": null,
+   "ilk_oneri_tur": 0
+  },
+  {
+   "kimlik": "kf43b1252a5a3",
+   "hucre": "K-tam-sessiz",
+   "grup": "K",
+   "ilk_e": -0.9041976005326623,
+   "e": -0.804942479426541,
+   "e_kar": -2.1574936801734466,
+   "anlasti_tur": null,
+   "ilk_oneri_tur": 0
+  },
+  {
+   "kimlik": "kf4fb15418a4f",
+   "hucre": "S-tam-sessiz",
+   "grup": "S",
+   "ilk_e": -1.1067590721778073,
+   "e": -0.9649660420262058,
+   "e_kar": -2.3903834110227042,
+   "anlasti_tur": null,
+   "ilk_oneri_tur": 2
+  },
+  {
+   "kimlik": "kf557e0322001",
+   "hucre": "RT-levha",
+   "grup": "R",
+   "ilk_e": -1.289064396658438,
+   "e": -1.289064396658438,
+   "e_kar": -3.7977841794261304,
+   "anlasti_tur": null,
+   "ilk_oneri_tur": null
+  },
+  {
+   "kimlik": "kf698d2de63b1",
+   "hucre": "RT-notr",
+   "grup": "R",
+   "ilk_e": 0.3111712293382086,
+   "e": 0.3111712293382086,
+   "e_kar": 0.5131186879584665,
+   "anlasti_tur": null,
+   "ilk_oneri_tur": 18
+  },
+  {
+   "kimlik": "kf6dbf3ddf69f",
+   "hucre": "RT-yasak",
+   "grup": "R",
+   "ilk_e": -1.6739311927842138,
+   "e": -1.6739311927842138,
+   "e_kar": -4.572974552472627,
+   "anlasti_tur": null,
+   "ilk_oneri_tur": null
+  },
+  {
+   "kimlik": "kf7873c11cdfa",
+   "hucre": "K-0-soylendi",
+   "grup": "K",
+   "ilk_e": -0.29651318559722684,
+   "e": 0.8439078997649406,
+   "e_kar": 0.9399882908012032,
+   "anlasti_tur": 12,
+   "ilk_oneri_tur": 1
+  },
+  {
+   "kimlik": "kf79eb31395d5",
+   "hucre": "K-0-sessiz",
+   "grup": "K",
+   "ilk_e": 1.3239785875639343,
+   "e": 0.3111712293382086,
+   "e_kar": 0.5131186879584665,
+   "anlasti_tur": 0,
+   "ilk_oneri_tur": 0
+  },
+  {
+   "kimlik": "kf80882608dd0",
+   "hucre": "RT-yasak",
+   "grup": "R",
+   "ilk_e": -0.6813799817230026,
+   "e": -0.6813799817230026,
+   "e_kar": -3.8123098071497825,
+   "anlasti_tur": null,
+   "ilk_oneri_tur": null
+  },
+  {
+   "kimlik": "kf83c311a3a97",
+   "hucre": "RT-levha",
+   "grup": "R",
+   "ilk_e": 0.3111712293382086,
+   "e": 0.2909150821736941,
+   "e_kar": 0.4839417160532843,
+   "anlasti_tur": null,
+   "ilk_oneri_tur": 2
+  },
+  {
+   "kimlik": "kf911dfc542f8",
+   "hucre": "R-tam-sessiz",
+   "grup": "R",
+   "ilk_e": -0.29651318559722684,
+   "e": -0.5193308044068865,
+   "e_kar": -1.1683339033410525,
+   "anlasti_tur": null,
+   "ilk_oneri_tur": 0
+  },
+  {
+   "kimlik": "kf927cee54a9c",
+   "hucre": "K-0-sessiz",
+   "grup": "K",
+   "ilk_e": 0.7162941726284989,
+   "e": -0.9041976005326623,
+   "e_kar": -2.213671523627041,
+   "anlasti_tur": null,
+   "ilk_oneri_tur": 0
+  },
+  {
+   "kimlik": "kfa621989b240",
+   "hucre": "S-0-sessiz",
+   "grup": "S",
+   "ilk_e": -0.9041976005326623,
+   "e": -0.9041976005326623,
+   "e_kar": -2.213671523627041,
+   "anlasti_tur": null,
+   "ilk_oneri_tur": 0
+  },
+  {
+   "kimlik": "kfbceac013ba5",
+   "hucre": "K-0-soylendi",
+   "grup": "K",
+   "ilk_e": 0.7162941726284989,
+   "e": -0.5071771161081773,
+   "e_kar": -1.988960149812663,
+   "anlasti_tur": null,
+   "ilk_oneri_tur": 0
+  },
+  {
+   "kimlik": "kfc3f7fc1ef6c",
+   "hucre": "RT-notr",
+   "grup": "R",
+   "ilk_e": -0.49907465724237193,
+   "e": 0.837831055615586,
+   "e_kar": 0.939483622300158,
+   "anlasti_tur": 5,
+   "ilk_oneri_tur": null
+  },
+  {
+   "kimlik": "kfd823468491e",
+   "hucre": "K-yarim-sessiz",
+   "grup": "K",
+   "ilk_e": -0.49907465724237193,
+   "e": 0.5684242983275427,
+   "e_kar": -0.12747010783215076,
+   "anlasti_tur": 14,
+   "ilk_oneri_tur": 0
+  },
+  {
+   "kimlik": "kfe0ea597eaa1",
+   "hucre": "S-0-sessiz",
+   "grup": "S",
+   "ilk_e": -0.29651318559722684,
+   "e": 0.07214869279693711,
+   "e_kar": -0.1650863617814995,
+   "anlasti_tur": null,
+   "ilk_oneri_tur": 0
+  },
+  {
+   "kimlik": "kff987f4d8a27",
+   "hucre": "R-tam-sessiz",
+   "grup": "R",
+   "ilk_e": -0.29651318559722684,
+   "e": 0.04379008676661726,
+   "e_kar": 0.07184946798355478,
+   "anlasti_tur": null,
+   "ilk_oneri_tur": null
+  }
+ ]
+}
