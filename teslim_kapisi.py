@@ -142,6 +142,7 @@ def kontrol(rapor_yol, girdi, depo, testleri_kos=True):
     # 4 uydurma terimler yalnız eşleme bölümünde
     _, kalan = esleme_bolumu(metin)
     kalan_kod_disi = re.sub(r"`[^`]*`", "", kalan)
+    kalan_kod_disi = re.sub(r"https?://\S+", " ", kalan_kod_disi)   # KARAR 66: depo adresi (URL) terim sayılmaz
     uy = [w for w in UYDURMA if re.search(r"\b" + re.escape(w), kalan_kod_disi, re.I)]
     (kirmizi if uy else yesil).append("4 uydurma terimler metinde: %s" % (", ".join(uy) if uy else "yok (yalnız eşleme tablosunda)"))
     # 5 README_RUN

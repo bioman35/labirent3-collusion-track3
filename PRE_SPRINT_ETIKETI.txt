@@ -5,3 +5,4 @@ etiket-ek 22 Eki 2026-10-22T16:43:27Z: KARAR 51 - pilot klasorleri pilot_mu25/pi
 etiket-ek 23 Eki 2026-10-23T17:17:13Z: KARAR 54 - teslim_kapisi.py ozet 150-250 (Guidelines dogrulandi) - arac, deney kodu degismedi
 etiket-ek 25 Eki 2026-10-24T23:10:00Z: KARAR 64 - teslim_kapisi.py yuvarlama/arXiv/--girdi dosya (arac, olcum kodu degil) - deney kodu md5 ayni
 etiket-ek 25 Eki 2026-10-25T19:30:00Z: KARAR 65 - README_RUN.md bolum 1 (tekrar hassasiyeti, klasor listesi) - deney kodu md5 ayni
+etiket-ek 26 Eki 2026-10-25T21:20:00Z: KARAR 66 - teslim_kapisi.py URL terim sayilmaz (arac) - deney kodu md5 ayni
